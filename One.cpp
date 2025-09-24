@@ -24,10 +24,7 @@ Three *One::getP() const {
 
 void One::setP(const Three *ptr) {
     delete p;
-    if (ptr)
-        p = new Three(*ptr);
-    else
-        p = nullptr;
+    p = new Three(*ptr);
 }
 
 One::~One() {

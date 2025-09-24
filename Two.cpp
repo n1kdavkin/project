@@ -6,7 +6,7 @@ Two::Two(const std::string &s) : s_(s) {
 
 Two::Two(const Two &other) : s_(other.s_) {
     std::cout << "Two " << s_ << " created with copy" << std::endl;
-};
+}
 
 std::string Two::getS() const {
     return s_;

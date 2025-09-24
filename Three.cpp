@@ -8,7 +8,7 @@ Three::Three(const int n) : n_(n) {
 
 Three::Three(const Three &other): n_(other.n_) {
     std::cout << "Three " << n_ << " created with copy" << std::endl;
-};
+}
 
 int Three::getN() const {
     return n_;
